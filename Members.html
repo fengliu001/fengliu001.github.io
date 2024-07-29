@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home | Feng Liu@TMU</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Custom Theme files -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!--//theme-style-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Feng,Liu" />
+    <meta name="description" content="Feng Liu is currently working as an associate professor at Tianjin Medical University General Hospital, Tianjin Key Laboratory of Functional Imaging. His current research interests include brain science, artificial intelligence, and gene-environment-brain-imaging-behaviour association studies.">
+    <script type="application/x-javascript"> 
+        addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); 
+        function hideURLbar(){ window.scrollTo(0,1); } 
+    </script>
+    <!--fonts-->
+    <link href='http://fonts.lug.ustc.edu.cn/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+    <!--//fonts-->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){		
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+            });
+
+            $("span.menu").click(function(){
+                $(".top-nav ul").slideToggle(500);
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const navLinks = document.querySelectorAll('.nav-link');
+            const currentLocation = location.href;
+
+            navLinks.forEach(link => {
+                link.classList.remove('active'); // 移除所有链接的active类
+                if (link.href === currentLocation) {
+                    link.classList.add('active'); // 为当前链接添加active类
+                }
+
+                link.addEventListener('click', function() {
+                    navLinks.forEach(link => link.classList.remove('active'));
+                    this.classList.add('active');
+                });
+            });
+        });
+
+        function setViewportHeight() {
+            let vh = window.innerHeight * 0.01;
+            document.documentElement.style.setProperty('--vh', `${vh}px`);
+        }
+        window.addEventListener('resize', setViewportHeight);
+        window.addEventListener('orientationchange', setViewportHeight);
+        setViewportHeight();
+    </script>
+    <style>
+        .top-nav ul {
+            display: none;
+        }
+        @media (min-width: 768px) {
+            .top-nav ul {
+                display: block !important;
+            }
+        }
+        @media (max-width: 767px) {
+            .footer-top {
+                flex-direction: column; /* 竖排显示 */
+            }
+            .footer-top .col-md-6 {
+                max-width: 100%; /* 占满宽度 */
+                margin-bottom: 20px; /* 增加底部间距 */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-bottom">
+                <div class="top-nav">
+                    <span class="menu"><img src="Images/menu.png" alt="Menu"></span>
+                    <ul style="padding-left: 20px;">
+                        <li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
+                        <li class="nav-item"><a href="Publications.html" class="nav-link">PUBLICATIONS</a></li>
+                        <li class="nav-item"><a href="Members.html" class="nav-link">MEMBERS</a></li>
+                        <li class="nav-item"><a href="Service.html" class="nav-link">SERVICE</a></li>
+                    </ul>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+			<div class="container">
+    <div class="content">
+        <div class="top-on">
+            <div class="content-bottom">
+                <div class="col-md-6 top-pic" style="padding-left: 5%">
+                    <a href="index.html"><img class="img-responsive" src="Images/fengliu1.jpg" width="66%" alt="Feng Liu" /></a>
+                </div>
+                <div class="col-md-6 top-pic" style="padding-left: 0%; padding-top: 5px; padding-bottom: 5px;">
+                    <h4 style="line-height: 2; margin-bottom: 15px;" size="5"><b>Feng Liu (刘 风)</b></h4>
+                    <h4 style="line-height: 1.6; font-weight: normal;">
+                       Ph.D. <br>
+                        Tianjin Key Laboratory of Functional Imaging & Tianjin Institute of Radiology <br>
+                        Department of Radiology, Tianjin Medical University General Hospital <br>
+                        Tianjin 300052, China <br>
+                        
+                        <b>Email</b>: <a href="mailto:fengliu@tmu.edu.cn">fengliu@tmu.edu.cn</a> <br>
+                    </h4>
+                    <div class="clearfix"></div>
+                </div>
+           
+<div style="text-align: center; font-size: 16px; margin-top: 40px;">
+    <hr style="border: 1px dotted #036; width: 100%; margin-top: 10px; margin-bottom: 10px;">
+    <h3 style="font-size: 18px; color: black; margin: 20px 0;">
+        <a href="https://tutors.eol.cn/web/index/details?service_id=1&tutor_id=19678" style="display: inline-block; width: 100%;">招生咨询</a>
+    </h3>
+    <hr style="border: 1px dotted #036; width: 100%; margin-top: 10px; margin-bottom: 10px;">
+</div>
+<br>
+<font color="#C0C0C0" size="5" face="Times New Roman"><a name="top"></a>::</font><font size="5" face="Times New Roman">Members</font><font color="#C0C0C0" size="5" face="Times New Roman">::</font>
+<hr color="#999966">
+<p>
+<font face="Times New Roman" size="3">
+    <table width="80%" align="center" style="margin-left:auto; margin-right:auto;">
+        <!-- 硕士研究生 -->
+        <tr>
+            <td colspan="2" align="left"><b><font face="Times New Roman" size="3">硕士研究生</font></b></td>
+        </tr>
+        <tr><td colspan="2">&nbsp;</td></tr>
+        <tr>
+            <td width="50%" align="left">
+                <p style="margin-top: 0; margin-bottom: 6px">
+                    <font face="Times New Roman" size="3">
+                        <a>张依静</a>（Yijing Zhang）<br>2022级硕士生
+                    </font>
+                </p>
+            </td>
+            <td width="50%" align="left">
+                <p style="margin-top: 0; margin-bottom: 6px">
+                    <font face="Times New Roman" size="3">
+                        <a>王荷</a>（He Wang）<br>2022级硕士生
+                    </font>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" align="left">
+                <p style="margin-top: 0; margin-bottom: 6px">
+                    <font face="Times New Roman" size="3">
+                        <a>雷明欢</a>（Minghuan Lei）<br>2023级硕士生
+                    </font>
+                </p>
+            </td>
+            <td width="50%" align="left">
+                <p style="margin-top: 0; margin-bottom: 6px">
+                    <font face="Times New Roman" size="3">
+                        <a>张志辉</a>（Zhihui Zhang）<br>2023级硕士生
+                    </font>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" align="left">
+                <p style="margin-top: 0; margin-bottom: 6px">
+                    <font face="Times New Roman" size="3">
+                        <a>安琪</a>（Qi An）<br>2024级硕士生
+                    </font>
+                </p>
+            </td>
+            <td width="50%" align="left">
+                <p style="margin-top: 0; margin-bottom: 6px">
+                    <font face="Times New Roman" size="3">
+                        <a>蔡文洁</a>（Wenjie Cai）<br>2024级硕士生
+                    </font>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" align="left">
+                <p style="margin-top: 0; margin-bottom: 6px">
+                    <font face="Times New Roman" size="3">
+                        <a>贾琳琳</a>（Linlin Jia）<br>2024级在职硕士生
+                    </font>
+                </p>
+            </td>
+            <td width="50%" align="left">&nbsp;</td>
+        </tr>
+        <tr><td colspan="2">&nbsp;</td></tr>
+
+        <!-- 联合培养研究生 -->
+        <tr>
+            <td colspan="2" align="left"><b><font face="Times New Roman" size="3">联合培养研究生</font></b></td>
+        </tr>
+        <tr><td colspan="2">&nbsp;</td></tr>
+        <tr>
+            <td width="50%" align="left">
+                <p style="margin-top: 0; margin-bottom: 6px">
+                    <font face="Times New Roman" size="3">
+                        <a>孙祖浩</a>（Zuhao Sun）<br>2022级博士生<br>Co-supervised with Professor Chunshui Yu
+                    </font>
+                </p>
+            </td>
+            <td width="50%" align="left">
+                <p style="margin-top: 0; margin-bottom: 6px">
+                    <font face="Times New Roman" size="3">
+                        <a>赵其煜</a>（Qiyu Zhao）<br>2022级博士生<br>Co-supervised with Professor Quan Zhang
+                    </font>
+                </p>
+            </td>
+        </tr>
+	     <tr>
+            <td width="50%" align="left">
+                <p style="margin-top: 0; margin-bottom: 6px">
+                    <font face="Times New Roman" size="3">
+                        <a>薛卉</a>（Hui Xue）<br>2022级博士生<br>Co-supervised with Professor Chunshui Yu
+                    </font>
+                </p>
+            </td>
+            <td width="50%" align="left">
+                <p style="margin-top: 0; margin-bottom: 6px">
+                    <font face="Times New Roman" size="3">
+                        <a>宋琳琳</a>（Linlin Song）<br>2022级在职博士生<br>Co-supervised with Professor Junping Wang
+                    </font>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" align="left">
+                <p style="margin-top: 0; margin-bottom: 6px">
+                    <font face="Times New Roman" size="3">
+                        <a>陈亚媛</a>（Yayuan Chen）<br>2022级博士生<br>Co-supervised with Professor Chunshui Yu
+                    </font>
+                </p>
+            </td>
+            <td width="50%" align="left">
+                <p style="margin-top: 0; margin-bottom: 6px">
+                    <font face="Times New Roman" size="3">
+                        <a>刘梦鸽</a>（Mengge Liu）<br>2023级博士生<br>Co-supervised with Professor Chunshui Yu
+                    </font>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" align="left">
+                <p style="margin-top: 0; margin-bottom: 6px">
+                    <font face="Times New Roman" size="3">
+                        <a>张雨洁</a>（Yujie Zhang）<br>2022级硕士生<br>Co-supervised with Professor Chunshui Yu
+                    </font>
+                </p>
+            </td>
+		 <td width="50%" align="left">
+                <p style="margin-top: 0; margin-bottom: 6px">
+                    <font face="Times New Roman" size="3">
+                        <a>徐静蕾</a>（Jinglei Xu）<br>2023级硕士生<br>Co-supervised with Professor Quan Zhang
+ </font>
+                </p>
+            </td>
+		 <tr>
+            <td width="50%" align="left">
+                <p style="margin-top: 0; margin-bottom: 6px">
+                    <font face="Times New Roman" size="3">
+                        <a>翟影</a>（Ying Zhai）<br>2023级硕士生<br>Co-supervised with Professor Quan Zhang
+                    </font>
+                </p>
+            </td>
+            <td width="50%" align="left">&nbsp;</td>
+        </tr>
+        <tr><td colspan="2">&nbsp;</td></tr>
+
+       <tr>
+    <td colspan="2" align="left"><b><font face="Times New Roman" size="3">毕业研究生</font></b></td>
+</tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr>
+    <td width="50%" align="left" style="vertical-align: top;">
+        <p style="margin-top: 0; margin-bottom: 6px">
+            <font face="Times New Roman" size="3">
+                <a style="color: blue;">许强</a> (Qiang Xu)<br>2018年博士毕业（联合培养）<br>天津医科大学总医院工作
+            </font>
+        </p>
+    </td>
+    <td width="50%" align="left" style="vertical-align: top;">
+        <p style="margin-top: 0; margin-bottom: 6px">
+            <font face="Times New Roman" size="3">
+                <a style="color: blue;">郭力宁</a> (Lining Guo)<br>2022年博士毕业（联合培养）<br>天津医科大学总医院工作
+            </font>
+        </p>
+    </td>
+</tr>
+<tr>
+    <td width="50%" align="left" style="vertical-align: top;">
+        <p style="margin-top: 0; margin-bottom: 6px">
+            <font face="Times New Roman" size="3">
+                <a style="color: blue;">薛凯钟</a> (Kaizhong Xue)<br>2023年博士毕业（联合培养）<br>首都医科大学宣武医院工作
+            </font>
+        </p>
+    </td>
+    <td width="50%" align="left" style="vertical-align: top;">
+        <p style="margin-top: 0; margin-bottom: 6px">
+            <font face="Times New Roman" size="3">
+                <a style="color: blue;">马娟微</a> (Juanwei Ma)<br>2023年博士毕业（联合培养）<br>天津医科大学总医院工作
+            </font>
+        </p>
+    </td>
+</tr>
+<tr>
+    <td width="50%" align="left" style="vertical-align: top;">
+        <p style="margin-top: 0; margin-bottom: 6px">
+            <font face="Times New Roman" size="3">
+                <a style="color: blue;">纪元</a> (Yuan Ji)<br>2024年博士毕业（联合培养）<br>天津医科大学总医院博士后
+            </font>
+        </p>
+    </td>
+    <td width="50%" align="left" style="vertical-align: top;">
+        <p style="margin-top: 0; margin-bottom: 6px">
+            <font face="Times New Roman" size="3">
+                <a style="color: blue;">王紫蕊</a> (Zirui Wang)<br>2024年博士毕业（联合培养）<br>北京天坛医院工作
+            </font>
+        </p>
+    </td>
+</tr>
+<tr>
+    <td width="50%" align="left" style="vertical-align: top;">
+        <p style="margin-top: 0; margin-bottom: 6px">
+            <font face="Times New Roman" size="3">
+                <a style="color: blue;">刘嘉玮</a> (Jiawei Liu)<br>2024年博士毕业（联合培养）<br>中山大学附属第八医院博士后
+            </font>
+        </p>
+    </td>
+    <td width="50%" align="left" style="vertical-align: top;">
+        <p style="margin-top: 0; margin-bottom: 6px">
+            <font face="Times New Roman" size="3">
+                <a style="color: blue;">杨冰冰</a> (Bingbing Yang)<br>2020年硕士毕业（联合培养）<br>首都医科大学附属北京同仁医院博士后
+            </font>
+        </p>
+    </td>
+</tr>
+<tr>
+    <td width="50%" align="left" style="vertical-align: top;">
+        <p style="margin-top: 0; margin-bottom: 6px">
+            <font face="Times New Roman" size="3">
+                <a style="color: blue;">朱丹</a> (Dan Zhu)<br>2020年硕士毕业（联合培养）<br>天津医科大学总医院空港医院工作
+            </font>
+        </p>
+    </td>
+    <td width="50%" align="left" style="vertical-align: top;">
+        <p style="margin-top: 0; margin-bottom: 6px">
+            <font face="Times New Roman" size="3">
+                <a style="color: blue;">李魏薇</a> (Weiwei Li)<br>2021年硕士毕业（联合培养）<br>阜阳市卫生健康委员会工作
+            </font>
+        </p>
+    </td>
+</tr>
+<tr>
+    <td width="50%" align="left" style="vertical-align: top;">
+        <p style="margin-top: 0; margin-bottom: 6px">
+            <font face="Times New Roman" size="3">
+                <a style="color: blue;">满玮琦</a> (Weiqi Man)<br>2022年硕士毕业（联合培养）<br>天津市第一中心医院工作
+            </font>
+        </p>
+    </td>
+    <td width="50%" align="left" style="vertical-align: top;">
+        <p style="margin-top: 0; margin-bottom: 6px">
+            <font face="Times New Roman" size="3">
+                <a style="color: blue;">马林</a> (Lin Ma)<br>2022年硕士毕业（联合培养）<br>济宁医学院附属医院工作
+            </font>
+        </p>
+    </td>
+</tr>
+<tr>
+    <td width="50%" align="left" style="vertical-align: top;">
+        <p style="margin-top: 0; margin-bottom: 6px">
+            <font face="Times New Roman" size="3">
+                <a style="color: blue;">刘梦鸽</a> (Mengge Liu)<br>2023年硕士毕业（联合培养）<br>天津医科大学博士在读
+            </font>
+        </p>
+    </td>
+    <td width="50%" align="left" style="vertical-align: top;">
+        <p style="margin-top: 0; margin-bottom: 6px">
+            <font face="Times New Roman" size="3">
+                <a style="color: blue;">蔡梦静</a> (Mengjing Cai)<br>2024年硕士毕业<br>河南省人民医院工作
+           </font>
+                </p>
+            </td>
+            <td width="50%" align="left">&nbsp;</td>
+        </tr>
+   <tr><td colspan="2">&nbsp;</td></tr>
+       <tr>
+
+	        <tr>
+            <td colspan="2" align="left"><b><font face="Times New Roman" size="3">本科生</font></b></td>
+        </tr>
+        <tr><td colspan="2">&nbsp;</td></tr>
+        <tr>
+            <td width="50%" align="left">
+                <p style="margin-top: 0; margin-bottom: 6px">
+                    <font face="Times New Roman" size="3">
+                        <a>富林涵</a>（Linhan Fu）<br>2021级本科生
+                    </font>
+                </p>
+            </td>
+            <td width="50%" align="left">
+                <p style="margin-top: 0; margin-bottom: 6px">
+                    <font face="Times New Roman" size="3">
+                        <a>田煜煊</a>（Yuxuan Tian）<br>2022级本科生
+                    </font>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="50%" align="left">
+                <p style="margin-top: 0; margin-bottom: 6px">
+                    <font face="Times New Roman" size="3">
+                        <a>骆骐</a>（Qi Luo）<br>2022级本科生
+                    </font>
+                </p>
+            </td>
+            <td width="50%" align="left">
+                <p style="margin-top: 0; margin-bottom: 6px">
+                    <font face="Times New Roman" size="3">
+                        <a>蒋一帆</a>（Yifan Jiang）<br>2022级本科生
+                    </font>
+                </p>
+            </td>
+            <td width="50%" align="left">&nbsp;</td>
+        </tr>
+        <tr><td colspan="2">&nbsp;</td></tr>
+    <td colspan="2" align="left"><b><font face="Times New Roman" size="3">本科毕业设计</font></b></td>
+</tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr>
+    <td width="50%" align="left" style="vertical-align: top;">
+        <p style="margin-top: 0; margin-bottom: 6px">
+            <font face="Times New Roman" size="3">
+                2017年 <a style="color: blue;">高铭</a>（Ming Gao）<br>天津市第一中心医院工作
+            </font>
+        </p>
+    </td>
+    <td width="50%" align="left" style="vertical-align: top;">
+        <p style="margin-top: 0; margin-bottom: 6px">
+            <font face="Times New Roman" size="3">
+                2018年 <a style="color: blue;">陈香羽</a>（Xiangyu Chen）<br>贵州医科大学附属医院工作
+            </font>
+        </p>
+    </td>
+</tr>
+<tr>
+    <td width="50%" align="left" style="vertical-align: top;">
+        <p style="margin-top: 0; margin-bottom: 6px">
+            <font face="Times New Roman" size="3">
+                2019年 <a style="color: blue;">刘静</a>（Jing Liu）<br>四川大学华西第二医院工作
+            </font>
+        </p>
+    </td>
+    <td width="50%" align="left" style="vertical-align: top;">
+        <p style="margin-top: 0; margin-bottom: 6px">
+            <font face="Times New Roman" size="3">
+                2020年 <a style="color: blue;">赵晓玉</a>（Xiaoyu Zhao）<br>甘南藏族自治州人民医院工作
+            </font>
+        </p>
+    </td>
+</tr>
+<tr>
+    <td width="50%" align="left" style="vertical-align: top;">
+        <p style="margin-top: 0; margin-bottom: 6px">
+            <font face="Times New Roman" size="3">
+                2021年 <a style="color: blue;">黄鹏悦</a>（Pengyue Huang）<br>天津市胸科医院工作
+            </font>
+        </p>
+    </td>
+    <td width="50%" align="left" style="vertical-align: top;">
+        <p style="margin-top: 0; margin-bottom: 6px">
+            <font face="Times New Roman" size="3">
+                2021年 <a style="color: blue;">赵垚</a>（Yao Zhao）<br>空军军医大学西京医院工作
+            </font>
+        </p>
+    </td>
+</tr>
+<tr>
+    <td width="50%" align="left" style="vertical-align: top;">
+        <p style="margin-top: 0; margin-bottom: 6px">
+            <font face="Times New Roman" size="3">
+                2022年 <a style="color: blue;">王蕊</a>（Rui Wang）<br>上海交通大学医学院硕士在读
+            </font>
+        </p>
+    </td>
+    <td width="50%" align="left" style="vertical-align: top;">
+        <p style="margin-top: 0; margin-bottom: 6px">
+            <font face="Times New Roman" size="3">
+                2023年 <a style="color: blue;">热米莱·阿西木</a>（Aximu Remilai）<br>喀什地区第一人民医院工作
+            </font>
+        </p>
+    </td>
+</tr>
+<tr>
+    <td width="50%" align="left" style="vertical-align: top;">
+        <p style="margin-top: 0; margin-bottom: 6px">
+            <font face="Times New Roman" size="3">
+                2024年 <a style="color: blue;">王芃薪</a>（Pengxin Wang）<br>中南大学湘雅医学院硕士在读
+            </font>
+        </p>
+    </td>
+    <td width="50%" align="left">&nbsp;</td>
+</tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+  </table>
+</font>
+
+
+		<div class="footer">
+        <div class="footer-top" style="display: flex; justify-content: space-between; text-align: center; padding-bottom: 0;">
+            <div class="col-md-6 amet-sed" style="max-width: 600px; margin: 0 auto; text-align: center;">
+                <h4 style="margin-bottom: 1em;">Contact</h4>
+                <i class="line"></i>
+                <p style="text-transform:none; padding-top:1em;">
+                <br>
+                    <a href="https://scholar.google.com/citations?user=AI2szVUAAAAJ&hl=en">Feng Liu</a><br>
+                    Address: <a href="https://j.map.baidu.com/ee/wfl">Department of Radiology<br>Tianjin Medical University General Hospital<br>Tianjin, 300052, China</a><br>
+                    Email: <a href="mailto:fengliu@tmu.edu.cn">fengliu@tmu.edu.cn</a><br>
+                </p>
+            </div>
+            <div class="col-md-6 amet-sed" style="max-width: 600px; margin: 0 auto; text-align: center;">
+                <h4 style="margin-bottom: 1em;">Visitor Map</h4>
+                <i class="line"></i>
+                <div style="padding-top:1em;">
+                    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=a7a7a7&w=300&t=n&d=bDVjxNPkqCwX9YtRSdJMyeoPiruSxoelAGOOzPTjUZM&co=ffffff&cmo=95d4ee&cmn=ec7a2e&ct=000000'></script>
+                </div>
+            </div>
+        </div>
+    </div>
+        <p class="footer-class" style="text-transform:none; text-align:center;">Copyright &copy; 2024 Feng Liu - Visited <a href="https://www.easycounter.com/" onclick="stc(this, 44)"><img src="https://www.easycounter.com/counter.php?jay01" border="0" alt="HTML Counter"></a> times - Last updated: July 2024.</p>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $().UItoTop({ easingType: 'easeOutQuart' });
+        });
+    </script>
+    <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+</div>
+</body>
+</html>
