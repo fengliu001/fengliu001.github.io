@@ -133,8 +133,14 @@
                     <div style="margin-top:40px;">
                         <h2><img src="Images/me.jpg" width="27" height="27">&nbsp;Personal Profile</h2>
                         <div class="personalProfile">
-                            <div class="personalProfile-title">loading...</div>
-                            <div class="personalProfile-content"></div>
+                            <div class="personalProfile-title">
+                                刘风&nbsp&nbsp&nbsp&nbsp博士&nbsp&nbsp&nbsp&nbsp教授&nbsp&nbsp&nbsp&nbsp硕士生导师&nbsp&nbsp&nbsp&nbsp天津医科大学总医院医学影像科党总支副书记
+                            </div>
+                            <div class="personalProfile-content">
+                                研究方向为遗传-环境-脑影像-行为关联研究。曾获得湖南医学科技奖一等奖、湖南医学科技奖二等奖、中国金属学会冶金医学奖二等奖、教育部博士研究生学术新人奖、天津市博士后创新创业大赛二等奖、中国电子学会优秀博士论文（首届）、天津市“131”创新型人才培养工程人选、Wiley中国高贡献作者奖、天津医科大学卓越教师发展计划人选、天津医科大学总医院新世纪人才、天津医科大学总医院青年专业技术骨干、国家自然科学基金通信评审专家、教育部学位中心学位论文评议专家、山东省科技评审专家、黑龙江省科技评审专家、上海市科技评审专家、重庆市科技评审专家、厦门市科技评审专家、深圳市医学研究专项资金评审专家。入选全国影像医学领域学者百强榜（2022年）、“Research.com”世界顶尖科学家（2023-2025年神经科学）、“Research.com”科学新星（2022-2024年），并获得国家留学基金委“国家建设高水平大学公派研究生”奖学金的资助前往美国北卡罗来纳大学教堂山分校进行联合培养。主持国家自然科学基金3项、省部级课题4项、局级等课题3项；参加国家自然科学基金重大研究计划、科技部重点研发等项目10余项。已在Nature
+                                Communications、Nature Cities、Molecular Psychiatry、Cyborg and Bionic
+                                Systems、Research等刊物发表SCI论文200余篇，总引用9500余次，H指数54。其中第一或通讯作者（含共同）发表SCI论文80余篇（累计影响因子超过400，
+                                ESI1%高被引论文5篇，封面论文4篇）；授权专利3项，软件著作权1项。</div>
                         </div>
                     </div>
 
@@ -187,7 +193,7 @@
 
                     <div style="margin-top: 40px;">
                         <h2><img src="Images/honor.png" width="27" height="27">&nbsp;Honors and Awards</h2>
-                        <ul class="honorAndAwrads"></ul>
+                        <ul class="honorAndawards"></ul>
                     </div>
                     <div style="margin-top: 40px;">
                         <h2><img src="Images/Fundings.png" width="30" height="30">&nbsp;Grants/Projects</h2>
@@ -310,11 +316,12 @@
 
     <script>
         //Personal Profile部分
-        const personalProfileData = {
-            title: '刘风    博士    教授    硕士生导师    天津医科大学总医院医学影像科党总支副书记',
-            content: '研究方向为遗传-环境-脑影像-行为关联研究。曾获得湖南医学科技奖一等奖、湖南医学科技奖二等奖、中国金属学会冶金医学奖二等奖、教育部博士研究生学术新人奖、天津市博士后创新创业大赛二等奖、中国电子学会优秀博士论文（首届）、天津市“131”创新型人才培养工程人选、Wiley中国高贡献作者奖、天津医科大学卓越教师发展计划人选、天津医科大学总医院新世纪人才、天津医科大学总医院青年专业技术骨干、国家自然科学基金通信评审专家、教育部学位中心学位论文评议专家、山东省科技评审专家、黑龙江省科技评审专家、上海市科技评审专家、重庆市科技评审专家、厦门市科技评审专家、深圳市医学研究专项资金评审专家。入选全国影像医学领域学者百强榜（2022年）、“Research.com”世界顶尖科学家（2023-2025年神经科学）、“Research.com”科学新星（2022-2024年），并获得国家留学基金委“国家建设高水平大学公派研究生”奖学金的资助前往美国北卡罗来纳大学教堂山分校进行联合培养。主持国家自然科学基金3项、省部级课题4项、局级等课题3项；参加国家自然科学基金重大研究计划、科技部重点研发等项目10余项。已在Nature Communications、Nature Cities、Molecular Psychiatry、Cyborg and Bionic Systems、Research等刊物发表SCI论文200余篇，总引用9500余次，H指数54。其中第一或通讯作者（含共同）发表SCI论文80余篇（累计影响因子超过400， ESI1%高被引论文5篇，封面论文4篇）；授权专利3项，软件著作权1项。'
-        }
-                //Latest News部分
+        // 比较门面靠上的地方直接往html里写，不然加载要时间
+        // const personalProfileData = {
+        //     title: '刘风    博士    教授    硕士生导师    天津医科大学总医院医学影像科党总支副书记',
+        //     content: '研究方向为遗传-环境-脑影像-行为关联研究。曾获得湖南医学科技奖一等奖、湖南医学科技奖二等奖、中国金属学会冶金医学奖二等奖、教育部博士研究生学术新人奖、天津市博士后创新创业大赛二等奖、中国电子学会优秀博士论文（首届）、天津市“131”创新型人才培养工程人选、Wiley中国高贡献作者奖、天津医科大学卓越教师发展计划人选、天津医科大学总医院新世纪人才、天津医科大学总医院青年专业技术骨干、国家自然科学基金通信评审专家、教育部学位中心学位论文评议专家、山东省科技评审专家、黑龙江省科技评审专家、上海市科技评审专家、重庆市科技评审专家、厦门市科技评审专家、深圳市医学研究专项资金评审专家。入选全国影像医学领域学者百强榜（2022年）、“Research.com”世界顶尖科学家（2023-2025年神经科学）、“Research.com”科学新星（2022-2024年），并获得国家留学基金委“国家建设高水平大学公派研究生”奖学金的资助前往美国北卡罗来纳大学教堂山分校进行联合培养。主持国家自然科学基金3项、省部级课题4项、局级等课题3项；参加国家自然科学基金重大研究计划、科技部重点研发等项目10余项。已在Nature Communications、Nature Cities、Molecular Psychiatry、Cyborg and Bionic Systems、Research等刊物发表SCI论文200余篇，总引用9500余次，H指数54。其中第一或通讯作者（含共同）发表SCI论文80余篇（累计影响因子超过400， ESI1%高被引论文5篇，封面论文4篇）；授权专利3项，软件著作权1项。'
+        // }
+        //Latest News部分
         const latestNewsData = [
             // {
             //     date: 发布日期,
@@ -615,8 +622,8 @@
             }
         ];
 
-        // Honors and Awrads部分
-        const honorAndAwradsData = [
+        // Honors and awards部分
+        const honorAndawardsData = [
             {
                 date: '2025',
                 content: 'Metallurgical Medicine Award of The Chinese Society for Metals, second prize',
@@ -693,10 +700,10 @@
         let html = ''
 
         //Personal Profile数据绑定，内部元素替换
-        const personalProfileTitle = document.querySelector('.personalProfile-title')
-        personalProfileTitle.innerHTML = personalProfileData.title
-        const personalProfileContent = document.querySelector('.personalProfile-content')
-        personalProfileContent.innerHTML = personalProfileData.content
+        // const personalProfileTitle = document.querySelector('.personalProfile-title')
+        // personalProfileTitle.innerHTML = personalProfileData.title
+        // const personalProfileContent = document.querySelector('.personalProfile-content')
+        // personalProfileContent.innerHTML = personalProfileData.content
 
         //Latest News数据绑定，元素替换
         const latestNews = document.querySelector('.latestNews')
@@ -730,29 +737,31 @@
         }
         latestNews.innerHTML = html;
 
-        // Honors and Awrads数据绑定，内部元素替换
-        const honorAndAwrads = document.querySelector('.honorAndAwrads')
-        // console.log(honorAndAwrads);
+        // Honors and awards数据绑定，内部元素替换
+        const honorAndawards = document.querySelector('.honorAndawards')
+        // console.log(honorAndawards);
         html = '';
-        for (let i = 0; i < honorAndAwradsData.length; i++) {
-            const item = honorAndAwradsData[i];
+        for (let i = 0; i < honorAndawardsData.length; i++) {
+            const item = honorAndawardsData[i];
             // 拼接单个列表项的HTML
             // 如果存在 newAdd 且为true，为那一行日期添加下划线
             html += item.newAdd ? `
                 <li>
-                    <span class="honorAndAwrads-newAdd">[${item.date}]</span> ${item.content}
+                    <span class="honorAndawards-newAdd">[${item.date}]</span> ${item.content}
                 </li>
             `: `
                 <li>
-                    <span class="honorAndAwrads-date">[${item.date}]</span> ${item.content}
+                    <span class="honorAndawards-date">[${item.date}]</span> ${item.content}
                 </li>
             `;
         }
-        honorAndAwrads.innerHTML = html;
+        honorAndawards.innerHTML = html;
 
         // lastUpdated
         const lastUpdated = document.querySelector('.lastUpdated')
-        lastUpdated.innerHTML = 'December 2025.'
+        lastUpdated.innerHTML = 'January 2026.'
+
+
     </script>
 </body>
 

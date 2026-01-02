@@ -1932,11 +1932,11 @@ ul.msg-social {
 	font-size: 18px;
 }
 
-.personalProfile-title {
-	/* html默认输出缩为单个空格 */
-	/* 加上这句以后HOME页面四个空格间距更好看 */
+/* .personalProfile-title {
+	html默认输出缩为单个空格
+	加上这句以后HOME页面四个空格间距更好看
 	white-space: pre
-}
+} */
 
 .latestNews {
 	line-height: 1.2;
@@ -1963,7 +1963,7 @@ ul.msg-social {
 	text-decoration: underline red solid;
 }
 
-.honorAndAwrads {
+.honorAndawards {
 	line-height: 1.2;
 	text-align: justify;
 	padding-left: 5%;
@@ -1971,16 +1971,16 @@ ul.msg-social {
 	margin-top: 20px;
 }
 
-.honorAndAwrads li {
+.honorAndawards li {
 	font-family: 'Times New Roman', serif;
 	font-size: 18px;
 }
 
-.honorAndAwrads-date {
+.honorAndawards-date {
 	font-weight: bold;
 }
 
-.honorAndAwrads-newAdd {
+.honorAndawards-newAdd {
 	text-decoration: underline red solid;
 }
 
