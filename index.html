@@ -772,14 +772,13 @@
             );
 
             // 拼接单个列表项的HTML
-            // 浏览器应该能处理百万级的文字，应该不会爆？真有那么多成就一起摆出来的话单个渲染吧，我偷个懒
             // 如果存在 newAdd 且为true，为那一行日期添加下划线
             html += item.newAdd ? `
                 <li align="left">
                     <span class="latestNews-newAdd">[${item.date}]</span> ${content}
                 </li>
             `: `
-                <li>
+                <li align="left">
                     <span class="latestNews-date">[${item.date}]</span> ${content}
                 </li>
             `;
